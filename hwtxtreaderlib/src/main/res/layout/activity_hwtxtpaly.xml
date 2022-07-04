@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/activity_hwTxtPlay_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_withe"
+        android:gravity="center_vertical"
+        android:paddingEnd="@dimen/s_dp_10"
+        android:paddingRight="@dimen/s_dp_10">
+
+
+        <TextView
+            android:id="@+id/activity_hwTxtPlay_chapter_menuText"
+            android:layout_width="@dimen/s_dp_25"
+            android:layout_height="@dimen/s_dp_25"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/s_dp_5"
+            android:layout_marginLeft="@dimen/s_dp_5"
+            android:background="@drawable/ic_chapter"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="@dimen/s_dp_10"
+            android:text=""
+            android:textColor="@color/color_858582" />
+
+        <TextView
+            android:id="@+id/activity_hwTxtPlay_chapterName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/s_dp_5"
+            android:layout_marginRight="@dimen/s_dp_5"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingTop="@dimen/s_dp_10"
+            android:paddingBottom="@dimen/s_dp_10"
+            android:text="@string/first_chapter"
+            android:textColor="@color/color_666666" />
+
+        <com.bifan.txtreaderlib.ui.BatteryView
+            android:id="@+id/battery"
+            android:layout_width="@dimen/s_dp_30"
+            android:layout_height="@dimen/s_dp_15"
+            android:layout_marginEnd="@dimen/s_dp_10"
+            android:background="@color/color_transparent"
+            app:batteryColor="@color/color_666666"
+            app:batteryOrientation="horizontal"
+            app:batteryPower="100" />
+
+        <TextClock
+            android:id="@+id/tc_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format24Hour="HH:mm:ss"
+            android:textColor="@color/color_666666"
+            tools:text="20:20" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.bifan.txtreaderlib.main.TxtReaderView
+        android:id="@+id/activity_hwTxtPlay_readerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_hwTxtPlay_bottom"
+        android:layout_below="@+id/activity_hwTxtPlay_top"
+        android:background="@color/color_withe" />
+
+    <RelativeLayout
+        android:id="@+id/activity_hwTxtPlay_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_withe"
+        android:paddingTop="@dimen/s_dp_5">
+
+        <TextView
+            android:id="@+id/activity_hwTxtPlay_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s_dp_10"
+            android:layout_marginLeft="@dimen/s_dp_10"
+            android:text="@string/zero_percent"
+            android:textColor="@color/color_666666" />
+
+        <TextView
+            android:id="@+id/activity_hwTxtPlay_setting_text"
+            android:layout_width="@dimen/s_dp_25"
+            android:layout_height="@dimen/s_dp_25"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/s_dp_5"
+            android:layout_marginRight="@dimen/s_dp_5"
+            android:layout_marginBottom="@dimen/s_dp_5"
+            android:background="@drawable/ic_setting"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="@dimen/s_dp_5"
+            android:textColor="@color/color_858582" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/activity_hwTxtPlay_ClipBoar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_black"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_666666" />
+
+        <TextView
+            android:id="@+id/activity_hwTxtPlay_selected_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/s_dp_10"
+            android:layout_marginLeft="@dimen/s_dp_10"
+            android:paddingTop="@dimen/s_dp_10"
+            android:paddingBottom="@dimen/s_dp_10"
+            android:text="@string/selected_0_num_text"
+            android:textColor="@color/color_aaffffff" />
+
+        <TextView
+            android:id="@+id/activity_hwTxtPlay_ClipBoar_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/s_dp_5"
+            android:layout_marginRight="@dimen/s_dp_5"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onCopyText"
+            android:paddingTop="@dimen/s_dp_10"
+            android:paddingBottom="@dimen/s_dp_10"
+            android:text="@string/copy"
+            android:textColor="@color/color_withe" />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/activity_hwTxtPlay_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_hwTxtPlay_menu_bottom"
+        android:layout_below="@+id/activity_hwTxtPlay_menu_top"
+        android:background="@color/color_transparent"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/activity_hwTxtPlay_menu_top"
+        layout="@layout/view_menu_top"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/activity_hwTxtPlay_menu_bottom"
+        layout="@layout/view_menu_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/activity_hwTxtPlay_chapter_msg"
+        layout="@layout/view_chapter_msg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/s_dp_80"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

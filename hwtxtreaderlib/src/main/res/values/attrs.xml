@@ -1,0 +1,16 @@
+<resources>
+
+    <declare-styleable name="CircleView">
+        <attr name="CircleRadius" format="dimension" />
+        <attr name="BgColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Battery">
+        <attr name="batteryOrientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="batteryColor" format="color"/>
+        <attr name="batteryPower" format="integer"/>
+    </declare-styleable>
+</resources>

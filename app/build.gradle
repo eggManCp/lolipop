@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.lolipop.reader"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file('D:\\demo\\Reader-Txt\\app\\keystroe\\reader_txt.jks')
+            storePassword 'reader_123'
+            keyAlias 'reader'
+            keyPassword 'reader_123'
+            v1SigningEnabled = true
+            v1SigningEnabled = true
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    implementation 'com.blankj:utilcodex:1.30.5'
+    implementation project(':hwtxtreaderlib')
+    //implementation 'com.github.bifan-wei:HwTxtReader:V2.2'
+}
