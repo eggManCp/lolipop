@@ -3,6 +3,7 @@ package com.bifan.txtreaderlib.ui;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
@@ -23,6 +24,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bifan.txtreaderlib.BroadcastReceiver.ScreenStatusReceiver;
 import com.bifan.txtreaderlib.R;
 import com.bifan.txtreaderlib.bean.TxtChar;
 import com.bifan.txtreaderlib.bean.TxtMsg;
@@ -47,6 +49,7 @@ import java.io.File;
 public class HwTxtPlayActivity extends AppCompatActivity {
     protected Handler mHandler;
     protected boolean FileExist = false;
+    private ScreenStatusReceiver receiver;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -54,6 +57,7 @@ public class HwTxtPlayActivity extends AppCompatActivity {
         setContentView(getContentViewLayout());
         FileExist = getIntentData();
         init();
+        registerBroadcast();
         loadFile();
         registerListener();
     }
@@ -103,6 +107,13 @@ public class HwTxtPlayActivity extends AppCompatActivity {
             return true;
         }
 
+    }
+
+    private void registerBroadcast() {
+        receiver = new ScreenStatusReceiver(mTxtReaderView);
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Intent.ACTION_SCREEN_OFF);
+        registerReceiver(receiver, filter);
     }
 
 
@@ -728,6 +739,7 @@ public class HwTxtPlayActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         mBattery.releaseReceiver();
+        unregisterReceiver(receiver);
         exist();
     }
 
