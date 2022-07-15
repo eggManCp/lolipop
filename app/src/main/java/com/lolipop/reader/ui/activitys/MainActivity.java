@@ -18,8 +18,6 @@ import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.bifan.txtreaderlib.ui.HwTxtPlayActivity;
-import com.bifan.txtreaderlib.utils.FileProvider;
 import com.blankj.utilcode.util.FileUtils;
 import com.blankj.utilcode.util.PermissionUtils;
 
@@ -29,6 +27,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import com.daliy.txtreader.ui.HwTxtPlayActivity;
+import com.daliy.txtreader.utils.FileProvider;
 import com.lolipop.reader.R;
 import com.lolipop.reader.model.BookModel;
 import com.lolipop.reader.ui.adapter.BookListAdapter;
