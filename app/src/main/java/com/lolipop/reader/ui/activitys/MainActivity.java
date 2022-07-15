@@ -32,12 +32,15 @@ import java.util.List;
 import com.lolipop.reader.R;
 import com.lolipop.reader.model.BookModel;
 import com.lolipop.reader.ui.adapter.BookListAdapter;
+import com.lolipop.reader.ui.viewmodel.CategoryListModel;
 
 public class MainActivity extends AppCompatActivity {
     protected RecyclerView rec;
     protected AppCompatImageView add;
 
     private BookListAdapter adapter;
+
+    private CategoryListModel viewModel;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

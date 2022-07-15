@@ -31,7 +31,6 @@ import com.bifan.txtreaderlib.bean.TxtMsg;
 import com.bifan.txtreaderlib.interfaces.ICenterAreaClickListener;
 import com.bifan.txtreaderlib.interfaces.IChapter;
 import com.bifan.txtreaderlib.interfaces.ILoadListener;
-import com.bifan.txtreaderlib.interfaces.IPageChangeListener;
 import com.bifan.txtreaderlib.interfaces.ISliderListener;
 import com.bifan.txtreaderlib.interfaces.ITextSelectListener;
 import com.bifan.txtreaderlib.main.TxtConfig;

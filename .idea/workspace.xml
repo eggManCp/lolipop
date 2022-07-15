@@ -6,15 +6,33 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a8b7de8-45cf-491e-a9af-6a8e51639de8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/BroadcastReceiver/ScreenStatusReceiver.java" afterDir="false" />
+    <list default="true" id="8a8b7de8-45cf-491e-a9af-6a8e51639de8" name="Default Changelist" comment="息屏的时候 保存下进度">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/model/BaseListModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/model/ResultModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/network/NetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/network/RequestManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/ui/activitys/CategoryListActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/ui/viewmodel/BaseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/ui/viewmodel/CategoryListModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_category_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/widgets/BatteryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/src/androidTest/java/com/daliy/txtreader/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtReader/src/test/java/com/daliy/txtreader/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -29,15 +47,22 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/ui/activitys/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/ui/activitys/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/ui/HwTxtPlayActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/ui/HwTxtPlayActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hwtxtreaderlib/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hwtxtreaderlib/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[QV710EHH5F]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[CUYDU19A15004464]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -63,10 +88,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
         <option value="valueResourceFile" />
-        <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -121,6 +147,7 @@
     <property name="android-custom-viewD:/demo/Reader-Txt/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/main/TxtReaderBaseView.java_TxtReaderBaseView_DIMENSIONS" value="1080&#10;1920" />
     <property name="android-custom-viewD:/demo/Reader-Txt/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/main/TxtReaderView.java_SELECTED" value="TxtReaderView" />
     <property name="android-custom-viewD:/demo/Reader-Txt/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/ui/BatteryView.java_SELECTED" value="BatteryView" />
+    <property name="android-custom-viewD:/demo/Reader-Txt/hwtxtreaderlib/src/main/java/com/bifan/txtreaderlib/widgets/BatteryView.java_SELECTED" value="BatteryView" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/lolipop/reader/extensions" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -210,6 +237,14 @@
       <option name="presentableId" value="Default" />
       <updated>1647223055799</updated>
     </task>
+    <task id="LOCAL-00001" summary="息屏的时候 保存下进度">
+      <created>1657008964883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657008964883</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,11 +252,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="息屏的时候 保存下进度" />
+    <option name="LAST_COMMIT_MESSAGE" value="息屏的时候 保存下进度" />
   </component>
 </project>
