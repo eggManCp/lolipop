@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.bifan.txtreaderlib.main.TxtReaderView
+    <com.daliy.txtreader.main.TxtReaderView
         android:id="@+id/txtReaderView"
         android:layout_width="match_parent"
         android:layout_height="200dp" />

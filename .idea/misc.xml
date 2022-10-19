@@ -6,9 +6,12 @@
         <entry key="..\:/demo/Reader-Txt/app/src/main/res/layout/activity_category_list.xml" value="0.3619791666666667" />
         <entry key="..\:/demo/Reader-Txt/app/src/main/res/layout/activity_display_more.xml" value="0.3619791666666667" />
         <entry key="..\:/demo/Reader-Txt/app/src/main/res/layout/activity_main_new.xml" value="0.3619791666666667" />
+        <entry key="..\:/demo/Reader-Txt/app/src/main/res/layout/adapter_reader_view.xml" value="0.1875" />
+        <entry key="..\:/demo/Reader-Txt/app/src/main/res/layout/item_book.xml" value="0.1875" />
         <entry key="..\:/demo/Reader-Txt/hwtxtreaderlib/src/main/res/layout/activity_hwtxtpaly.xml" value="0.3619791666666667" />
         <entry key="..\:/demo/Reader-Txt/hwtxtreaderlib/src/main/res/layout/view_chapter_msg.xml" value="0.3619791666666667" />
         <entry key="..\:/demo/Reader-Txt/hwtxtreaderlib/src/main/res/layout/view_menu_bottom.xml" value="0.3619791666666667" />
+        <entry key="..\:/demo/Reader-Txt/txtReader/src/main/res/layout/activity_hwtxtpaly.xml" value="0.12864583333333332" />
         <entry key="..\:/demo/Reader-Txt/txtReader/src/main/res/layout/view_menu_top.xml" value="0.3619791666666667" />
       </map>
     </option>

@@ -14,7 +14,7 @@ import android.os.BatteryManager;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.bifan.txtreaderlib.R;
+import com.daliy.txtreader.R;
 
 /**
  * @author FengZhongChan

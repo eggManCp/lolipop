@@ -6,8 +6,8 @@ import android.os.Handler;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.bifan.txtreaderlib.main.LoadListenerAdapter;
-import com.bifan.txtreaderlib.main.TxtReaderView;
+import com.daliy.txtreader.main.LoadListenerAdapter;
+import com.daliy.txtreader.main.TxtReaderView;
 import com.lolipop.reader.R;
 
 

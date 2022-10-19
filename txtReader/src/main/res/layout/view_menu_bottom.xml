@@ -268,7 +268,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
-                <com.bifan.txtreaderlib.ui.CircleView
+                <com.daliy.txtreader.ui.CircleView
                     android:id="@+id/txtReader_menu_style1"
                     android:layout_width="@dimen/s_dp_25"
                     android:layout_height="@dimen/s_dp_25"
@@ -281,7 +281,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
-                <com.bifan.txtreaderlib.ui.CircleView
+                <com.daliy.txtreader.ui.CircleView
                     android:id="@+id/txtReader_menu_style2"
                     android:layout_width="@dimen/s_dp_25"
                     android:layout_height="@dimen/s_dp_25"
@@ -294,7 +294,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
-                <com.bifan.txtreaderlib.ui.CircleView
+                <com.daliy.txtreader.ui.CircleView
                     android:id="@+id/txtRead_menu_style3"
                     android:layout_width="@dimen/s_dp_25"
                     android:layout_height="@dimen/s_dp_25"
@@ -307,7 +307,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
-                <com.bifan.txtreaderlib.ui.CircleView
+                <com.daliy.txtreader.ui.CircleView
                     android:id="@+id/txtReader_menu_style5"
                     android:layout_width="@dimen/s_dp_25"
                     android:layout_height="@dimen/s_dp_25"
@@ -320,7 +320,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
 
-                <com.bifan.txtreaderlib.ui.CircleView
+                <com.daliy.txtreader.ui.CircleView
                     android:id="@+id/txtReader_menu_style4"
                     android:layout_width="@dimen/s_dp_25"
                     android:layout_height="@dimen/s_dp_25"

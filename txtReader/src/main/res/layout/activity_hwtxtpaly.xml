@@ -43,7 +43,7 @@
             android:text="@string/first_chapter"
             android:textColor="@color/color_666666" />
 
-        <com.bifan.txtreaderlib.ui.BatteryView
+        <com.daliy.txtreader.ui.BatteryView
             android:id="@+id/battery"
             android:layout_width="@dimen/s_dp_30"
             android:layout_height="@dimen/s_dp_15"
@@ -63,7 +63,7 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <com.bifan.txtreaderlib.main.TxtReaderView
+    <com.daliy.txtreader.main.TxtReaderView
         android:id="@+id/activity_hwTxtPlay_readerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

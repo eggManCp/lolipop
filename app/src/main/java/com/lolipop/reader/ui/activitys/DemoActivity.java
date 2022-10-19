@@ -19,9 +19,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.bifan.txtreaderlib.main.TxtConfig;
-import com.bifan.txtreaderlib.ui.HwTxtPlayActivity;
-import com.bifan.txtreaderlib.utils.FileProvider;
+import com.daliy.txtreader.main.TxtConfig;
+import com.daliy.txtreader.ui.HwTxtPlayActivity;
+import com.daliy.txtreader.utils.FileProvider;
 import com.lolipop.reader.R;
 
 import java.io.File;
